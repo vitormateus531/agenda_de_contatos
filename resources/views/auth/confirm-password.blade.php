@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <!--<x-jet-authentication-card-logo />-->
+            <i class="fa fa-address-book" aria-hidden="true" style="font-size:100px;color:#9D65EC"></i>
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
