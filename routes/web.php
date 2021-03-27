@@ -22,6 +22,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 //-------------------- Redefinição de senha ------------------------------------ 
+
 Route::post('/forgot-password','App\Http\Controllers\Auth\ForgotPasswordController@sendEmail')->middleware('guest')->name('password.email');
 
 Route::get('/reset-password/{token}','App\Http\Controllers\Auth\ResetPasswordController@viewReset')->middleware('guest')->name('password.reset');
