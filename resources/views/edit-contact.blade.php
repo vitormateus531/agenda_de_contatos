@@ -22,7 +22,7 @@
                                 Novo Contato
                             </a>
                             <div class="py-3 text-sm">
-                                <a href="{{route('edit-one-contact')}}">
+
                                 <div class="flex justify-start cursor-pointer text-gray-700 hover:text-blue-400 hover:bg-blue-100 rounded-md px-2 py-2 my-2">
                                     <span class="bg-green-400 h-2 w-2 m-2 rounded-full"></span>
                                     <div class="flex-grow font-medium px-2">Cicrano Silva</div>
@@ -30,9 +30,10 @@
                                         <p>(31) 12345-9999</p>
                                         <p>cicrano@masterix.com.br</p>
                                         <p>https://www.facebook.com/cicranosilva/</p>
+                                        <p><a style="color:green" href="#">Alterar</a> <a style="color:red" href="#">Excluir</a></p>
                                     </div>
                                 </div>
-                                </a>
+
                                 <div class="flex justify-start cursor-pointer text-gray-700 hover:text-blue-400 hover:bg-blue-100 rounded-md px-2 py-2 my-2">
                                     <span class="bg-green-400 h-2 w-2 m-2 rounded-full"></span>
                                     <div class="flex-grow font-medium px-2">Cicrano Silva</div>
@@ -40,6 +41,7 @@
                                         <p>(31) 12345-9999</p>
                                         <p>cicrano@masterix.com.br</p>
                                         <p>https://www.facebook.com/cicranosilva/</p>
+                                        <p><a style="color:green" href="#">Alterar</a> <a style="color:red" href="#">Excluir</a></p>
                                     </div>
                                 </div>
 

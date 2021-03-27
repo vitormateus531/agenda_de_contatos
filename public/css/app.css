@@ -192177,3 +192177,10 @@ select {
   }
 }
 
+.search input{
+  border-color:transparent; 
+}
+
+
+
+

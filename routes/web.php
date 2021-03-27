@@ -17,9 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/insert-contact','App\Http\Controllers\InsertContactController@viewInsertContact')->middleware('auth')->name('insert-contact');
+Route::get('/edit-contact','App\Http\Controllers\EditContactController@viewEditContact')->middleware('auth')->name('edit-contact');
+Route::get('/edit-one-contact','App\Http\Controllers\EditContactController@viewEditOneContact')->middleware('auth')->name('edit-one-contact');
+
 
 //-------------------- Redefinição de senha ------------------------------------ 
 

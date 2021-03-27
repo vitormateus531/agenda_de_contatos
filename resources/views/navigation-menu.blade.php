@@ -3,13 +3,14 @@
 
         <a href="{{ route('dashboard') }}" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Agenda de
             Contatos</a><br>
-        <a href="{{ route('profile.show') }}"><span class="text-xs text-grey-dark">{{ Auth::user()->name }}</span></a>
+        <a href="{{ route('profile.show') }}"  title="Editar Perfil"><span class="text-xs text-grey-dark">{{ Auth::user()->name }}</span></a>
 
     </div>
 
     <div class="sm:mb-0 self-center">
         <!-- <div class="h-10" style="display: table-cell, vertical-align: middle;"> -->
-        <a href="#" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Editar</a>
+        <a href="{{route('dashboard')}}" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Dashboard</a>
+        <a href="{{route('edit-contact')}}" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Editar</a>
         <!-- </div> -->
         <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('form').submit();" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Sair</a>
 
