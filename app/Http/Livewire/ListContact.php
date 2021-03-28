@@ -20,8 +20,8 @@ class ListContact extends Component
             $result = Contact::where('nome', $this->search)->orderBy('nome')->paginate(10);
         } else {
             $result = Contact::orderBy('nome')->paginate(10);
-        } 
+        }
 
-        return view('livewire.list-contact',['listContact' => $result]);
+        return view('livewire.list-contact', ['listContact' => $result]);
     }
 }

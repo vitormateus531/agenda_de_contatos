@@ -9,7 +9,7 @@
 
     <div class="sm:mb-0 self-center">
         <!-- <div class="h-10" style="display: table-cell, vertical-align: middle;"> -->
-        <a href="{{route('dashboard')}}" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Dashboard</a>
+        <a href="{{route('dashboard')}}" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Home</a>
         <a href="{{route('edit-contact')}}" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Editar</a>
         <!-- </div> -->
         <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('form').submit();" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Sair</a>
