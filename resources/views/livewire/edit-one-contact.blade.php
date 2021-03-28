@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="pt-4 flex items-center space-x-4">
-                        <button class="bg-red-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none">Excluir Contato</button>
+                        <button class="bg-red-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none" wire:click = 'delete({{$EditContact[0]->id}})'>Excluir Contato</button>
                         <button class="bg-blue-500 flex justify-center items-center w-full text-white px-4 py-3 rounded-md focus:outline-none">Salvar</button>
                     </div>
                 </div>

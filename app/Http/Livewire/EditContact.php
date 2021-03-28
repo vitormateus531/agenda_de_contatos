@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use Livewire\WithPagination;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Contact;
 
 class EditContact extends Component
@@ -17,9 +18,12 @@ class EditContact extends Component
     {
 
         if ($this->search != '') {
-            $result = Contact::where('nome', $this->search)->orderBy('nome')->paginate(10);
+            $result = Contact::where([
+                ['nome', '=', $this->search],
+                ['id_user', '=', Auth::user()->id]
+            ])->orderBy('nome')->paginate(10);
         } else {
-            $result = Contact::orderBy('nome')->paginate(10);
+            $result = Contact::where('id_user', Auth::user()->id)->orderBy('nome')->paginate(10);
         }
 
         return view('livewire.edit-contact', [
