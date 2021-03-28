@@ -20,4 +20,15 @@ class EditOneContact extends Component
     }
 
 
+    /**
+     * Write code on Method
+     *
+     * @return response()
+     */
+    public function delete($id)
+    {
+        $this->deleteId = $id;
+        Contact::find($this->deleteId)->delete();
+        return redirect()->to('/dashboard');
+    }
 }
