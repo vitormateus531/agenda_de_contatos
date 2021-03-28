@@ -15,4 +15,11 @@ class Contact extends Model
      * @var string
      */
     protected $table = 'contatos';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = ['nome','email','telefone_fixo','celular','rede_social','id_user'];
 }
