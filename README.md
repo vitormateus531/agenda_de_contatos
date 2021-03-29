@@ -4,3 +4,6 @@
 
 ## Descrição do Projeto
 <p align="justify"> Desenvolver uma plataforma capaz de guardar contatos pessoais ou profissionais do usuário, possibilitando o fácil e seguro acesso a eles.</p>
+
+
+### Pré-requisitos de instalação
