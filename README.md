@@ -10,12 +10,12 @@
 ## Tópicos
 
 <!--ts-->
-   * [Instalação](#Sobre)
+   * [Instalação](#instalacao)
       * [Pré Requisitos](#pre_requsito)
       * [Preparando aplicação](#preparando_aplicacao)
 <!--te-->
 
-## Instalação
+<h3 id="instalacao">Instalação</h3>
 
 ### Pré Requisitos
 - <p id="pre_requsito">Php 7.3 ou superior</p>
