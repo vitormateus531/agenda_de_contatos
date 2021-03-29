@@ -13,12 +13,6 @@
    * [Instalação](#instalacao)
       * [Pré Requisitos](#pre_requsito)
       * [Preparando aplicação](#preparando_aplicacao)
-   * [Usabilidade](#instalacao)
-      * [Criar uma conta](#pre_requsito)
-      * [Recuperação de senha](#preparando_aplicacao)
-      * [Painel do usuário](#preparando_aplicacao)
-      * [Informações de Perfil](#preparando_aplicacao)
-      * [Editar Contatos](#preparando_aplicacao)
    * [Demo](#instalacao)
 <!--te-->
 
@@ -59,13 +53,4 @@
     `php artisan serve`
 
 - Por padrão, ele irá executar a aplicação em `localhost:8000`, abra o navegador e digite o caminho.
-
-<h2 id="instalacao">Usabilidade</h2>
-
-<h3>Criar uma conta</h3>
- 
- Para voce adquirir sua agenda digital, primeiramento voce precisará criar uma conta
- 
- <img src="public/img/tutorial/criar_conta1.png" />
- 
 
