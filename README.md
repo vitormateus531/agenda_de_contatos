@@ -15,7 +15,11 @@
 
 ### Preparando aplicação
 
-Clone esta aplicação para um repositório local com comando:
+Clone este repositório para um repositório local com comando:
 
 ` git clone <repositorio>`
+
+Após isso entre no repositório onde a aplicação foi clonada e execute o seguinte comando:
+
+` composer install`
 
