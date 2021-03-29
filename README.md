@@ -11,14 +11,14 @@
 
 <!--ts-->
    * [Instalação](#Sobre)
-      * [Pré Requisitos](#preparando_aplicacao)
-      * [Preparando aplicação](#tabela-de-conteudo)
+      * [Pré Requisitos](#pre_requsito)
+      * [Preparando aplicação](#preparando_aplicacao)
 <!--te-->
 
 ## Instalação
 
-### Pré-requisitos
-- Php 7.3 ou superior
+### Pré Requisitos
+- <p id="pre_requsito">Php 7.3 ou superior</p>
 - Banco de dados mysql
 - Composer
 - Node
