@@ -11,8 +11,8 @@
 
 <!--ts-->
    * [Instalação](#Sobre)
-      * [Pré Requisitos](#tabela-de-conteudo)
-      * [Como começar](#tabela-de-conteudo)
+      * [Pré Requisitos](#preparando_aplicacao)
+      * [Preparando aplicação](#tabela-de-conteudo)
 <!--te-->
 
 ## Instalação
@@ -25,7 +25,7 @@
 
 ### Preparando aplicação
 
-Clone este repositório para um repositório local com comando:
+<p id="preparando_aplicacao">Clone este repositório para um repositório local com comando:</p>
 
 ` git clone <repositorio>`
 
