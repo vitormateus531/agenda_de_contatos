@@ -36,7 +36,7 @@
     ` composer install`
 
 - Altere o arquivo `.env.example` para somente `.env` e abra ele,
-  crie um banco de dados vazio e configure ele neste bloco:
+  crie um banco de dados vazio e o configure neste bloco:
 
     ```
     DB_CONNECTION=mysql
