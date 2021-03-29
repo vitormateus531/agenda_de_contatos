@@ -61,7 +61,7 @@
                 </form>
             </div>
             @if(session()->has('message'))
-            <p style="text-align:center;color:green"><b>{{session('message')}}</b></p>
+                <p style="text-align:center;color:green;margin-top:10px"><b>{{session('message')}}</b></p>
             @endif
         </div>
     </div>
