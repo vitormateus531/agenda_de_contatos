@@ -49,6 +49,7 @@
         @livewireScripts
         <script>
             $('.fone').mask('(00) 00000-0000');
+            $('.data').mask('00/00/0000');
         </script>
     </body>
 </html>
