@@ -66,6 +66,6 @@
  
  Para voce adquirir sua agenda digital, primeiramento voce precisará criar uma conta
  
- ![](public/img/tutorial/criar_conta1.png)
+ <img src="public/img/tutorial/criar_conta1.png" />
  
 
