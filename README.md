@@ -13,13 +13,7 @@
    * [Instalação](#instalacao)
       * [Pré Requisitos](#pre_requsito)
       * [Preparando aplicação](#preparando_aplicacao)
-   * [Usabilidade](#instalacao)
-      * [Criar uma conta](#pre_requsito)
-      * [Recuperação de senha](#preparando_aplicacao)
-      * [Painel do usuário](#preparando_aplicacao)
-      * [Informações de Perfil](#preparando_aplicacao)
-      * [Editar Contatos](#preparando_aplicacao)
-   * [Demo](#instalacao)
+   * [Demo](#demo)
 <!--te-->
 
 <h2 id="instalacao">Instalação</h2>
@@ -42,7 +36,7 @@
     ` composer install`
 
 - Altere o arquivo `.env.example` para somente `.env` e abra ele,
-  crie um banco de dados vazio e configure ele neste bloco:
+  crie um banco de dados vazio e o configure neste bloco:
 
     ```
     DB_CONNECTION=mysql
@@ -60,11 +54,6 @@
 
 - Por padrão, ele irá executar a aplicação em `localhost:8000`, abra o navegador e digite o caminho.
 
-<h2 id="instalacao">Usabilidade</h2>
-
-<h3>Criar uma conta</h3>
+<h2 id="demo">Demo</h2>
  
- Para voce adquirir sua agenda digital, primeiramento voce precisará criar uma conta
- 
- 
-
+ - <a href="#">Demo</a>
