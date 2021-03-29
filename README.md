@@ -23,9 +23,9 @@
 - Composer
 - Node
 
-### Preparando aplicação
+<h3 id="preparando_aplicacao" >Preparando aplicação</h3>
 
-<p id="preparando_aplicacao">Clone este repositório para um repositório local com comando:</p>
+Clone este repositório para um repositório local com comando:
 
 ` git clone <repositorio>`
 
