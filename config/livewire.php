@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => "http://localhost/teste_masterix/public",
+    'asset_url' => null,
 
     /*
     |--------------------------------------------------------------------------
