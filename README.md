@@ -27,5 +27,5 @@ Altere o arquivo `.env.example` para somente `.env` e execute o comando
 
 `php artisan serve`
 
-Por padrão, ele irá executar a aplicação no cominho `localhost:8000`
+Por padrão, ele irá executar a aplicação em `localhost:8000`, abra o navegador e digite o caminho.
 
