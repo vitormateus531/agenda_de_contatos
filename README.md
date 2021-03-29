@@ -15,3 +15,7 @@
 
 ### Preparando aplicação
 
+Clone esta aplicação para um repositório local com comando:
+
+` git clone <repositorio>`
+
