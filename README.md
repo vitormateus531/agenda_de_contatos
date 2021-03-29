@@ -19,6 +19,7 @@
       * [Painel do usuário](#preparando_aplicacao)
       * [Informações de Perfil](#preparando_aplicacao)
       * [Editar Contatos](#preparando_aplicacao)
+   * [Demo](#instalacao)
 <!--te-->
 
 <h2 id="instalacao">Instalação</h2>
