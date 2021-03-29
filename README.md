@@ -19,7 +19,13 @@ Clone este repositório para um repositório local com comando:
 
 ` git clone <repositorio>`
 
-Após isso entre no repositório onde a aplicação foi clonada e execute o seguinte comando:
+Após isso entre no repositório raiz da aplicação e execute o seguinte comando:
 
 ` composer install`
+
+Altere o arquivo `.env.example` para somente `.env` e execute o comando
+
+`php artisan serve`
+
+Por padrão, ele irá executar a aplicação no cominho `localhost:8000`
 
