@@ -41,16 +41,16 @@
     ` composer install`
 
 - Altere o arquivo `.env.example` para somente `.env` e abra ele,
-  Crie um banco de dados vazio e configure ele neste bloco:
+  crie um banco de dados vazio e configure ele neste bloco:
 
-    `
+    ```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=database_agenda
     DB_USERNAME=root
     DB_PASSWORD=
-    `
+    ```
 - Fazendo isso use o comando `php artisan migrate` para gerar todas as tabelas no banco que a aplicação utilizará
 
 - Execute a aplicação com o comando:
