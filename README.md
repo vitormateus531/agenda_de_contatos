@@ -61,3 +61,9 @@
 
 <h2 id="instalacao">Usabilidade</h2>
 
+<h3>Criar uma conta</h3>
+ 
+ Para voce adquirir sua agenda digital, primeiramento voce precisará criar uma conta
+ 
+ 
+
