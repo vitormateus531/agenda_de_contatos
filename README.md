@@ -5,9 +5,13 @@
 ## Descrição do Projeto
 <p align="justify"> Desenvolver uma plataforma capaz de guardar contatos pessoais ou profissionais do usuário, possibilitando o fácil e seguro acesso a eles.</p>
 
+## Instalação
 
-### Pré-requisitos de instalação
-- Php 7.3 ou superior;
-- Banco de dados mysql;
-- Composer;
-- Node;
+### Pré-requisitos
+- Php 7.3 ou superior
+- Banco de dados mysql
+- Composer
+- Node
+
+### Preparando aplicação
+
