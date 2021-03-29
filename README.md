@@ -13,6 +13,9 @@
    * [Instalação](#instalacao)
       * [Pré Requisitos](#pre_requsito)
       * [Preparando aplicação](#preparando_aplicacao)
+   * [Instalação](#instalacao)
+      * [Pré Requisitos](#pre_requsito)
+      * [Preparando aplicação](#preparando_aplicacao)
 <!--te-->
 
 <h2 id="instalacao">Instalação</h2>
