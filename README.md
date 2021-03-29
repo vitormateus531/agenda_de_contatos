@@ -18,6 +18,7 @@
 <h2 id="instalacao">Instalação</h2>
 
 <h3 id="pre_requsito" >Pré Requisitos</h3>
+
 - Php 7.3 ou superior
 - Banco de dados mysql
 - Composer
