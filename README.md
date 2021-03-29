@@ -15,7 +15,7 @@
       * [Preparando aplicação](#preparando_aplicacao)
 <!--te-->
 
-<h3 id="instalacao">Instalação</h3>
+<h2 id="instalacao">Instalação</h2>
 
 ### Pré Requisitos
 - <p id="pre_requsito">Php 7.3 ou superior</p>
