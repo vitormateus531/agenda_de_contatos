@@ -30,7 +30,9 @@
                             @endif
                             <p>{{ $item-> celular}} - <b>Celular</b></p>
                             <p>{{ $item-> email}} - <b>Email</b></p>
-                            <p>{{ $item-> rede_social}} - <b>Rede social</b></p>
+                            @if($item-> rede_social != '')
+                            <p>{{$item-> rede_social}} - <b>Rede social</b></p>
+                            @endif
                             <p><a style="color:green" href="{{route('edit-one-contact',['id' => $item->id ])}}">Alterar</a> <a style="color:red;cursor:pointer" wire:click="delete({{ $item->id }})">Excluir</a></p>
                         </div>
                     </div>

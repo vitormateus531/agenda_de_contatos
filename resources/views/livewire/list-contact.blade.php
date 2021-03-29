@@ -30,7 +30,9 @@
                                     @endif
                                     <p>{{$item-> celular}} - <b>Celular</b></p>
                                     <p>{{$item-> email}} - <b>Email</b></p>
+                                    @if($item-> rede_social != '')
                                     <p>{{$item-> rede_social}} - <b>Rede social</b></p>
+                                    @endif
                                 </div>
                             </div>
                         </a>
