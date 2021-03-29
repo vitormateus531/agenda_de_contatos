@@ -10,17 +10,9 @@
 ## Tópicos
 
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Instalação](#Sobre)
+      * [Pré Requisitos](#tabela-de-conteudo)
+      * [Como começar](#tabela-de-conteudo)
 <!--te-->
 
 ## Instalação
