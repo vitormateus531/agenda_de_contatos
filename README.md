@@ -32,19 +32,32 @@
 
 <h3 id="preparando_aplicacao" >Preparando aplicação</h3>
 
-Clone este repositório para um repositório local com comando:
+- Clone este repositório para um repositório local com comando:
 
-` git clone <repositorio>`
+    ` git clone <repositorio>`
 
-Após isso entre no repositório raiz da aplicação e execute o seguinte comando:
+- Após isso entre no repositório raiz da aplicação e execute o seguinte comando:
 
-` composer install`
+    ` composer install`
 
-Altere o arquivo `.env.example` para somente `.env` e execute o comando
+- Altere o arquivo `.env.example` para somente `.env` e abra ele,
+  Crie um banco de dados vazio e configure ele neste bloco:
 
-`php artisan serve`
+    `
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=database_agenda
+    DB_USERNAME=root
+    DB_PASSWORD=
+    `
+- Fazendo isso use o comando `php artisan migrate` para gerar todas as tabelas no banco que a aplicação utilizará
 
-Por padrão, ele irá executar a aplicação em `localhost:8000`, abra o navegador e digite o caminho.
+- Execute a aplicação com o comando:
+
+    `php artisan serve`
+
+- Por padrão, ele irá executar a aplicação em `localhost:8000`, abra o navegador e digite o caminho.
 
 <h2 id="instalacao">Usabilidade</h2>
 
